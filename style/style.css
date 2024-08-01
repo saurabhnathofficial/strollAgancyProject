@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: #DB162F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h2 {
+    font-size: 2.5vw;
+    font-weight: 800;
+    margin-left: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav h2 i {
+   color: #F2C532;
+   
+}
+
+.menu {
+    width: 32%;
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    gap: 35px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu ul li a:hover {
+   color: #F2C532;
+   transition: all ease;
+}
+
+#banner{
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-left: 80px;
+    padding-top: 6%;
+}
+.banner_text h4{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #006989;
+}
+.banner_text h1{
+    font-size: 4vw;
+    font-weight: 100;
+    color: #000000;
+}
+.banner_text h2{
+    font-size: 3.8vw;
+    font-weight: 700;
+    color: #000000;
+}
+.banner_text p{
+    font-size: 1.4vw; 
+    color: #ab9595ce;
+}
+.banner_text button{
+   width: 25%;
+    font-size: 1vw; 
+    font-weight: 500;
+    color: #006989;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #006989;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+#banner .img{
+    width: 50%;
+    height: 93%;
+}
+#banner .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#services{
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+.inner{
+    width: 75%;
+    margin: auto;
+    padding-top: 7%;
+    display: flex;
+}
+.inner #box{
+    width: 25%;
+    margin: 0 10px;
+}
+#box i{
+    font-size: 2.2vw;
+    border-radius: 50%;
+    background-color: #e48d99b3;
+    padding: 1.4vw;
+    color: #DB162F;
+}
+#box h2{
+    font-size: 1.5vw;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+#box p{
+    font-size: 1.1vw;
+    color: #8d8d8e;
+}
+
+#packages{
+    min-height: 100vh;
+    width: 73%;
+    margin: auto;
+    text-transform: capitalize;
+    padding-top: 100px;
+    background-color: #F2F2F2;
+}
+#packages h2{
+   font-size: 1.1vw;
+   color: #006989;
+   margin-bottom: 8px;
+}
+#packages h2 i{
+    color: #DB162F;
+}
+
+#cards{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+}
+.card{
+    height: 25vw;
+    width: 22vw;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#cards .card h2{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 12%;
+    left: 7%;
+}
+#cards .card p{
+    font-size: 1.2vw;
+    color: rgba(216, 207, 207, 0.868);
+    position: absolute;
+    bottom: 6%;
+    left: 7%;
+}
+#cards .card p span{
+    font-size: 1.3vw;
+    color:#F2C532;
+    font-weight: 800;
+}
+
+#content{
+    min-height: 100vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#content .vd{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)  
+      ), url('../images/slider2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.vd i{
+    font-size: 2vw;
+    /* color: #fff; */
+    padding: 16px 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.midtext{
+    height: 30vh;
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    margin-top: 50px;
+}
+.midtext h2{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #006989;
+    margin-bottom: 10px;
+}
+.midtext h2 i{
+    color: #DB162F;
+}
+.midtext h1{
+    font-size: 2.5vw;
+}
+.midtext .left{
+    width: 50%;
+}
+.midtext p{
+    width: 50%;
+    color: #8d8d8e;
+}
+
+
+
+
+
+
+
+#discount{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-image: 
+      linear-gradient(
+        rgba(65, 111, 113, 0.5), /* Color with opacity */
+        rgba(65, 111, 113, 0.5)  /* Same color for a uniform effect */
+      ),
+      url('../images/slider4.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+}
+
+#discount .left{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+}
+#discount .left h2{
+   font-size: 3vw;
+   font-weight: 700;
+}
+#discount .left p{
+   font-size: 1.1vw;
+   font-weight: 100;
+   color: #e1e1e6;
+   margin: 20px 0px;
+}
+#discount .left .input{
+   display: flex;
+   text-transform: capitalize;
+   
+}
+#discount .left .input input{
+   padding: 12px 0px;
+   width: 50%;
+   border-radius: 8px 0px 0px 8px;
+   border: none;
+   padding: 0 10px;
+}
+#discount .left button{
+   padding: 12px 50px;
+   border-radius: 0px 8px 8px 0px;
+   font-size: 1.2vw;
+   border: none;
+   background-color: #DB162F;
+   color: #fff;
+}
+
+#testimonials{
+    min-height: 60vh;
+    width: 100%;
+    background-color: #ffffff;
+    text-transform: capitalize;
+}
+.inner2{
+    width: 75%;
+    margin: auto;
+}
+#testimonials h2{
+   color: #006989;
+   padding-top: 100px;
+   margin-bottom: 10px;
+}
+#testimonials i{
+   color: #DB162F;
+}
+#testimonials h1{
+   font-size: 2.2vw;
+}
+#testimonials .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.box{
+   height: 200px;
+   width: 300px;
+   border: 1px solid #dadada;
+   border-radius: 20px 0px 20px 0px ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 5px;
+   padding: 0 20px;
+
+}
+.box h4{
+    font-size: 1.6vw;
+    margin-top: 25px;
+}
+.box p{
+    font-size: 1.3vw;
+    color: #968f8f;
+}
+
+#footer{
+    height: 70px ;
+    width: 100%;
+    background-color: #111111 ;
+    color: #b9afaf;
+    font-size: 1vw;
+    line-height: 70px;
+    text-align: center;
+}
